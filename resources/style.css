@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.titlebar {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  margin: 10px 10px;
+
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  flex-basis: 50%;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-basis: 50%;
+}
+
+.links {
+  padding: 0px 5px;
+}
