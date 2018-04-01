@@ -96,3 +96,36 @@
   padding-top: 10px;
   text-align: center;
 }
+
+        /* LOCATIONS */
+
+.locations {
+  background-image: url(./img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.box {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 15px 20px;
+  }
+
+        /*Footing*/
+
+footer {
+  text-align: center;
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+  }
