@@ -77,17 +77,22 @@
 }
 
 .teas {
-  text-align: center;
+  display:flex;
   width: 1000px;
-  margin: 0 auto;
-  border: 5px solid red;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px auto;
   }
 
-.teas img {
-  display: inline-block;
-  height: 200px;
+.img {
+  display: flex;
+  flex-direction: column;
   width: 300px;
-  border: 2px solid blue;
+  height: 300px;
+  padding: 10px 10px;
+}
 
-
-  }
+.img p {
+  padding-top: 10px;
+  text-align: center;
+}
