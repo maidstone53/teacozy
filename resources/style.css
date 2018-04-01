@@ -67,7 +67,7 @@
     /* Tea of the Month Section */
 
 .tea-title {
-  align-items: center;
+
   text-align: center;
   margin-top: 50px;
 }
@@ -89,7 +89,7 @@
   flex-direction: column;
   width: 300px;
   height: 300px;
-  padding: 10px 10px;
+  padding: 10px 15px;
 }
 
 .img p {
