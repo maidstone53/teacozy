@@ -27,6 +27,7 @@ header {
 
 .titlebar {
   display: flex;
+  margin-top: 9px;
 }
 
 .logo {
