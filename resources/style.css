@@ -14,11 +14,19 @@
 
   /* Title Bar */
 
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  margin: 0px 10px 10px 10px;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+
+}
+
 .titlebar {
   display: flex;
-  height: 69px;
-  border-bottom: 1px solid seashell;
-  margin: 10px 10px;
 }
 
 .logo {
@@ -32,12 +40,15 @@
   align-items: center;
   justify-content: flex-end;
   flex-basis: 50%;
+  margin: 0px 10px;
+  color: seashell;
   }
 
 .links {
-  margin: 0px 10px;
-  color: seashell;
+  padding-right: 25px;
 }
+
+
 
     /* SPLASH SCREEN SECTION */
 
@@ -128,4 +139,4 @@ footer {
 .copyright {
   text-align: left;
   margin-left: 20px;
-  }
+}
