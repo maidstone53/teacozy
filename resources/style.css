@@ -76,6 +76,9 @@ header {
     /* Tea of the Month Section */
 
 .tea-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   margin-top: 50px;
 }
@@ -129,6 +132,9 @@ header {
         /*Footing*/
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   height: 200px;
 }
