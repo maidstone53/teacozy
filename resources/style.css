@@ -22,7 +22,6 @@ header {
   position: fixed;
   z-index: 1;
   background-color: black;
-
 }
 
 .titlebar {
@@ -48,8 +47,6 @@ header {
 .links {
   padding-right: 25px;
 }
-
-
 
     /* SPLASH SCREEN SECTION */
 
@@ -79,7 +76,6 @@ header {
     /* Tea of the Month Section */
 
 .tea-title {
-
   text-align: center;
   margin-top: 50px;
 }
